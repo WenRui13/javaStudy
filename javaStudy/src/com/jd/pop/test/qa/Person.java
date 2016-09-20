@@ -2,7 +2,14 @@ package com.jd.pop.test.qa;
 
 public class Person {
 	private String name;
+	public Person() {
+		super();
+	}
 	private int age;
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", age=" + age + ", job=" + job + "]";
+	}
 	private String job;
 	public String getName() {
 		return name;
