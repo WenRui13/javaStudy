@@ -14,7 +14,7 @@ public class PersonTest {
 	  BeanInfo beanInfo = Introspector.getBeanInfo(Person.class, Object.class);
 	  PropertyDescriptor propertyDescriptor = new PropertyDescriptor("name", Person.class);
 	  Method writeMethod = propertyDescriptor.getWriteMethod();
-	  writeMethod.invoke(p, "ÕÅÈý");
+	  writeMethod.invoke(p, "å¼ ä¸‰");
 	  String name = (String) beanInfo.getBeanDescriptor().getValue("name");
 	  System.out.println(name);
 //	  System.out.println(p);
