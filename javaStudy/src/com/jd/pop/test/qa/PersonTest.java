@@ -19,4 +19,14 @@ public class PersonTest {
 	  System.out.println(name);
 //	  System.out.println(p);
   }
+  @Test
+  public void test2() throws Exception {
+	  BeanInfo beanInfo = Introspector.getBeanInfo(Person.class, Object.class);
+	  PropertyDescriptor[] propertyDescriptors = beanInfo.getPropertyDescriptors();
+	  for (PropertyDescriptor propertyDescriptor : propertyDescriptors) {
+		  System.out.println(propertyDescriptor.getName()+","+propertyDescriptor.getPropertyType());
+		
+	}
+	  
+  }
 }
