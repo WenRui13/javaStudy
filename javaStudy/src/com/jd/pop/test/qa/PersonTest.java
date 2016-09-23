@@ -41,4 +41,10 @@ public class PersonTest {
   public void test5() throws Exception {
 	  System.out.println("hello,world!");
   }
+  @Test
+  public void test6() throws Exception {
+	  System.out.println("hello,world!");
+  }
+  
+  
 }
