@@ -33,4 +33,8 @@ public class PersonTest {
   public void test3() throws Exception {
 	  System.out.println("hello,world!");
   }
+  @Test
+  public void test4() throws Exception {
+	  System.out.println("hello,world!");
+  }
 }
