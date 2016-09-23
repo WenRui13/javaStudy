@@ -29,4 +29,8 @@ public class PersonTest {
 	}
 	  
   }
+  @Test
+  public void test3() throws Exception {
+	  
+  }
 }
