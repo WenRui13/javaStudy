@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54" started-at="2016-09-20T15:58:34Z" finished-at="2016-09-20T15:58:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54" started-at="2016-09-20T15:58:34Z" finished-at="2016-09-20T15:58:34Z">
+      <class name="com.jd.pop.test.qa.PersonTest">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.jd.pop.test.qa.PersonTest@1be9101]" name="test2" duration-ms="30" started-at="2016-09-20T23:58:34Z" finished-at="2016-09-20T23:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.jd.pop.test.qa.PersonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
