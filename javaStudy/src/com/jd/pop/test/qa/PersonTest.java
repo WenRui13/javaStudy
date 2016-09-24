@@ -45,4 +45,8 @@ public class PersonTest {
   public void test7() throws Exception {
 	  System.out.println("hello,world!");
   }
+  @Test
+  public void test8() throws Exception {
+	  System.out.println("hello,world!");
+  }
 }
